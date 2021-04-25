@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Опросник</title>
+    <link rel="shortcut icon"
+        href="https://www.flaticon.com/svg/vstatic/svg/1076/1076928.svg?token=exp=1617358391~hmac=381d8f35650e5ff05cae792bb78696cc"
+        type="image/svg">
+</head>
+
+<body>
+    <form>
+        <h1 style="color: darkblue;">Опросник</h1>
+        <h2>Ваш кот/кошка:</h2>
+        <div><label for="pet">Кличка</label>
+            <input type="text" id="pet" />
+        </div>
+        <div><label for="name">Ваше имя</label>
+            <input type="text" id="name" />
+        </div>
+        <div><label for="contacts">Ваши контакты </label>
+            <input type="text" id="contacts" />
+        </div>
+        <br>
+        <div>
+            <label for="type">Порода вашего питомца </label> <br>
+            <select id="type">
+                <option value="1">Абиссинская кошка</option>
+                <option value="2">Австралийский мист</option>
+                <option value="3">Американская жесткошерстная</option>
+                <option value="4">Американская короткошерстная</option>
+                <option value="5">Американский бобтейл</option>
+                <option value="6">Американский кёрл</option>
+                <option value="7">Балинезийская кошка</option>
+                <option value="8">Бенгальская кошка</option>
+                <option value="9">Бирманская кошка</option>
+                <option value="10">Бомбейская кошка</option>
+                <option value="11">Бразильская короткошёрстная</option>
+                <option value="12">Британская длинношерстная</option>
+                <option value="13">Британская короткошерстная</option>
+                <option value="14">Бурманская кошка</option>
+                <option value="15">Бурмилла кошка</option>
+                <option value="16">Гавана</option>
+                <option value="17">Гималайская кошка</option>
+                <option value="18">Девон-рекс</option>
+                <option value="19">Донской сфинкс</option>
+                <option value="20">Европейская короткошерстная</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>Чем питается ваш питомец? </label><br>
+            Сухой корм <input type="checkbox" name="dry" id="food1" /><br>
+            Влажный корм <input type="checkbox" name="wet" id="food2" /><br>
+            Натуральный корм <input type="checkbox" name="natural" id="food3" /><br>
+        </div>
+        <br>
+        <div><label>Укажите пол вашего питомца: </label><br>
+            <i>Женский</i><input type="radio" name="sex" id="sex1" /> <br>
+            <i>Мужской</i><input type="radio" name="sex" id="sex2" />
+
+        </div>
+        <br>
+        <div>
+            <label for="comments"> Напишите о других особенностях Вашего питомца:</label> <br>
+            <textarea name="comments" id="comments" cols="50" rows="20"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="file"> Прикрепите фотографию Вашего питомца</label><br>
+            <input type="file" id="file">
+        </div>
+        <br>
+        <div>
+            <button style="background-color: dodgerblue">Сохранить</button>
+        </div>
+    </form>
+</body>
+
+</html>
